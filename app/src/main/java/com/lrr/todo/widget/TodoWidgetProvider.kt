@@ -20,9 +20,9 @@ abstract class TodoWidgetProvider : AppWidgetProvider() {
 
     companion object {
         const val TAG = "TodoWidgetProvider"
-        const val ACTION_CLICK_TO_OPEN_GROUP_LIST = "com.dss.todo.action.widget.open.group"
-        const val ACTION_CLICK_TO_CHANGE_GROUP = "com.dss.todo.action.widget.change.group"
-        const val ACTION_CLICK_TO_OPEN_MAIN = "com.dss.todo.action.widget.open.main"
+        const val ACTION_CLICK_TO_OPEN_GROUP_LIST = "com.lrr.todo.action.widget.open.group"
+        const val ACTION_CLICK_TO_CHANGE_GROUP = "com.lrr.todo.action.widget.change.group"
+        const val ACTION_CLICK_TO_OPEN_MAIN = "com.lrr.todo.action.widget.open.main"
         const val EXTRA_WIDGET_ID = "widgetId"
         const val EXTRA_GROUP_NAME = "groupName"
         const val EXTRA_GROUP_LIST = "todoList"
