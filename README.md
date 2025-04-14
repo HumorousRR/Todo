@@ -6,6 +6,7 @@ A to-do app that includes functions such as creating categories, adding, deletin
 2. On the right side are the to-do items under each category (supporting adding, deleting, marking completion or not, and setting reminders)
    
 ![Todo App UI](readme_res/todo.png)
+
 3. After setting reminders, to-do events will be reminded ten minutes in advance
 
 ![Todo Remind](readme_res/remind1.png)
