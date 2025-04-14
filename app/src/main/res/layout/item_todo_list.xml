@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+        <variable
+            name="todoData"
+            type="com.lrr.todo.data.models.ToDoData" />
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10.67dp"
+        android:background="@drawable/bg_item_to_do_list"
+        android:paddingHorizontal="5dp"
+        android:paddingVertical="18dp">
+
+        <CheckBox
+            android:id="@+id/todoCb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-5dp"
+            android:gravity="center"
+            android:scaleX="0.8"
+            android:scaleY="0.8"
+            android:buttonTint="@color/bg_check_box"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/todoTv"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:paddingHorizontal="5dp"
+            android:text="@{todoData.content}"
+            android:textColor="@color/black_333333"
+            android:textSize="11sp"
+            android:layout_marginTop="2dp"
+            app:layout_constraintEnd_toStartOf="@+id/setClockIv"
+            app:layout_constraintStart_toEndOf="@+id/todoCb"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/setClockIv"
+            android:layout_width="24.67dp"
+            android:layout_height="24.67dp"
+            android:layout_marginTop="1dp"
+            android:padding="5dp"
+            android:src="@drawable/ic_clock"
+            app:layout_constraintEnd_toStartOf="@+id/deleteIv"
+            app:layout_constraintTop_toTopOf="@+id/deleteIv" />
+
+
+        <ImageView
+            android:id="@+id/deleteIv"
+            android:layout_width="24.67dp"
+            android:layout_height="24.67dp"
+            android:padding="5dp"
+            android:src="@drawable/ic_delete"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/todoTv" />
+
+        <LinearLayout
+            android:id="@+id/remindLl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginStart="5dp"
+            android:orientation="horizontal"
+            android:visibility="gone"
+            app:layout_constraintStart_toStartOf="@+id/todoTv"
+            app:layout_constraintTop_toBottomOf="@+id/todoTv">
+
+            <ImageView
+                android:id="@+id/clockIv"
+                android:layout_width="9.33dp"
+                android:layout_height="9.33dp"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/ic_clock" />
+
+            <TextView
+                android:id="@+id/remindTimeTv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:text="@{todoData.remindTime}"
+                android:textColor="@color/black_666666"
+                android:textSize="10.67sp" />
+
+        </LinearLayout>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

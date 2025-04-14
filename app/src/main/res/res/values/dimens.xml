@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="main_content_radius">21.33dp</dimen>
+    <dimen name="window_width">746.67dp</dimen>
+    <dimen name="window_height">493.33dp</dimen>
+    <dimen name="margin_16dp">16dp</dimen>
+    <dimen name="more_edit_width">74.66dp</dimen>
+    <dimen name="widget_single_size">66.67dp</dimen>
+    <dimen name="widget_double_size">162.67dp</dimen>
+    <dimen name="widget_four_size">354.67dp</dimen>
+    <dimen name="date_time_picker_offset">7.33dp</dimen>
+    <dimen name="date_time_picker_max_y">266dp</dimen>
+    <dimen name="more_edit_max_y">640dp</dimen>
+    <dimen name="floating_tips_y">48dp</dimen>
+    <dimen name="warning_dialog_width">282dp</dimen>
+    <dimen name="warning_dialog_height">142dp</dimen>
+</resources>

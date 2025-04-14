@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/warning_dialog_width"
+    android:layout_height="@dimen/warning_dialog_height"
+    android:background="@drawable/common_dialog_bg"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/ivWarning"
+        android:src="@drawable/ic_warning"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="26dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvWarningTitle"
+        android:text="@string/clear_data_title"
+        android:textColor="@color/black_333333"
+        android:textSize="13sp"
+        app:layout_constraintTop_toTopOf="@id/ivWarning"
+        app:layout_constraintBottom_toBottomOf="@id/ivWarning"
+        app:layout_constraintStart_toEndOf="@id/ivWarning"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="10dp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"/>
+
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvWarningSummary"
+        android:layout_marginTop="13dp"
+        android:text="@string/clear_data_tip"
+        android:textColor="@color/black_666666"
+        android:textSize="13sp"
+        app:layout_constraintTop_toBottomOf="@id/tvWarningTitle"
+        app:layout_constraintStart_toStartOf="@id/tvWarningTitle"
+        app:layout_constraintEnd_toEndOf="@id/tvWarningTitle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"/>
+
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnConfirm"
+        android:layout_width="66dp"
+        android:layout_height="30dp"
+        app:layout_constraintTop_toBottomOf="@id/tvWarningSummary"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="23dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginEnd="20dp"
+        android:textAllCaps="false"
+        android:gravity="center"
+        android:singleLine="true"
+        android:text="@string/delete"
+        android:textColor="@color/white"
+        android:background="@drawable/bg_warning_dialog_confirm_btn"
+        android:backgroundTint="@color/selector_color_warning_dialog_confirm"
+        android:textSize="12sp" />
+
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnCancel"
+            android:layout_width="66dp"
+            android:layout_height="30dp"
+            app:layout_constraintTop_toTopOf="@id/btnConfirm"
+            app:layout_constraintBottom_toBottomOf="@id/btnConfirm"
+            app:layout_constraintEnd_toStartOf="@id/btnConfirm"
+            android:layout_marginEnd="10dp"
+            android:gravity="center"
+            android:singleLine="true"
+            android:textAllCaps="false"
+            android:background="@drawable/bg_warning_dialog_cancel_btn"
+            android:text="@string/cancel"
+            android:textColor="@color/black_666666"
+            android:textSize="12sp"
+            />
+
+
+
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

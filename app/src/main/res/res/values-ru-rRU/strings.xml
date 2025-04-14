@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="add_to_do_event">Добавить задачи</string>
+    <string name="app_name">Предстоящие</string>
+    <string name="cancel">Отмена</string>
+    <string name="confirm">Конечно</string>
+    <string name="create_list">Добавить новый список</string>
+    <string name="create_todo">Создать новую задачу</string>
+    <string name="create_todo_tip">Перейти, чтобы добавить</string>
+    <string name="day">День</string>
+    <string name="delete">удалить</string>
+    <string name="group_name_length_limit_tips">Имя списка не может превышать 9 символов</string>
+    <string name="has_done">завершенный</string>
+    <string name="hour">Час</string>
+    <string name="list">Список</string>
+    <string name="minute">Мин</string>
+    <string name="month">месяц</string>
+    <string name="no_todo_data_tip">Пока нечего делать</string>
+    <string name="rename">Переименовать</string>
+    <string name="todo">Предстоящие</string>
+    <string name="todo_count_tip">Дела</string>
+    <string name="todo_tip">Напоминание о делах</string>
+    <string name="year">Год</string>
+    <string name="create_list_tips">Пожалуйста, сначала добавьте новый список</string>
+
+    <string name="clear_data_title">Убедитесь, что хотите очистить данные?</string>
+    <string name="clear_data_tip">Данные не могут быть восстановлены после удаления</string>
+    <string name="group_name_duplicate_tips">Список с теми же именами уже существует, пожалуйста, подтвердите его после изменения</string>
+    <string name="todo_notification">Todo Notification</string>
+</resources>

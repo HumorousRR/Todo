@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rootRl"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/leftView"
+        android:layout_width="93.33dp"
+        android:layout_height="match_parent"
+        android:background="@color/gray_F1F1F1"
+        android:orientation="vertical" />
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/ic_widget_image" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="20dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/todoCountTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:includeFontPadding="false"
+            android:text="3"
+            android:textColor="@color/orange_FFA63C"
+            android:textSize="21.33sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginStart="4dp"
+            android:layout_marginBottom="3dp"
+            android:text="@string/todo_count_tip"
+            android:textColor="@color/orange_FFA63C"
+            android:textSize="10.67sp" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentEnd="true"
+        android:layout_toRightOf="@+id/leftView"
+        android:background="@color/white"
+        android:paddingStart="16dp"
+        android:paddingEnd="8.67dp">
+
+        <LinearLayout
+            android:id="@+id/groupNameLl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_16dp"
+            android:clickable="true"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/groupNameTv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="列表1"
+                android:textColor="@color/orange_FFA63C"
+                android:textSize="13.33dp" />
+
+            <ImageView
+                android:layout_width="8dp"
+                android:layout_height="4dp"
+                android:layout_marginStart="6.67dp"
+                android:src="@drawable/ic_arrow_down_orange" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/createIv"
+            android:layout_width="23.3dp"
+            android:layout_height="23.3dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="12.33dp"
+            android:padding="5dp"
+            android:src="@drawable/ic_create_orange" />
+
+        <ListView
+            android:id="@+id/listView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/groupNameLl"
+            android:layout_marginVertical="16dp"
+            android:divider="@null"
+            android:visibility="visible"
+            tools:ignore="RtlSymmetry" />
+
+        <ListView
+            android:id="@+id/groupListView"
+            android:layout_width="73.33dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/groupNameLl"
+            android:layout_marginTop="7.33dp"
+            android:background="@drawable/bg_date_time_picker"
+            android:elevation="1dp"
+            android:paddingHorizontal="12dp"
+            android:paddingVertical="8dp"
+            android:visibility="gone"
+            tools:ignore="RtlSymmetry" />
+
+        <LinearLayout
+            android:id="@+id/noDataTipLl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/no_todo_data_tip"
+                android:textColor="@color/black_666666"
+                android:textSize="13.33sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/create_todo_tip"
+                android:textColor="@color/orange_FFA63C"
+                android:textSize="12sp" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Todo</string>
+    <string name="todo">Todo</string>
+    <string name="create_list">Add new list</string>
+    <string name="add_to_do_event">Add to-do items</string>
+    <string name="rename">Rename</string>
+    <string name="delete">Delete</string>
+    <string name="create_todo">Create new to-do</string>
+    <string name="has_done">completed</string>
+    <string name="confirm">Confirm</string>
+    <string name="cancel">Cancel</string>
+    <string name="no_todo_data_tip">Nothing to do yet</string>
+    <string name="create_todo_tip">Go to add</string>
+    <string name="todo_count_tip">to-do items</string>
+    <string name="group_name_length_limit_tips">The number of characters in the list name cannot exceed 9</string>
+    <string name="todo_tip">To-do reminder</string>
+    <string name="list">List</string>
+    <string name="year">Year</string>
+    <string name="month">Mon</string>
+    <string name="day">Day</string>
+    <string name="hour">Hour</string>
+    <string name="minute">Min</string>
+    <string name="create_list_tips">Please add a new list first</string>
+    <string name="clear_data_title">Confirm to clear data?</string>
+    <string name="clear_data_tip">Data cannot be recovered after deletion</string>
+    <string name="group_name_duplicate_tips">There is already a list with the same name, please confirm and modify it again</string>
+    <string name="todo_notification">Todo Notification</string>
+
+</resources>

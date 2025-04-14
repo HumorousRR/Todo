@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="add_to_do_event">添加待办事项</string>
+    <string name="app_name">待办</string>
+    <string name="cancel">取消</string>
+    <string name="confirm">确定</string>
+    <string name="create_list">新增列表</string>
+    <string name="create_todo">新建待办</string>
+    <string name="create_todo_tip">去添加</string>
+    <string name="delete">删除</string>
+    <string name="group_name_length_limit_tips">列表名称字符个数不能超过9个</string>
+    <string name="has_done">已完成</string>
+    <string name="no_todo_data_tip">暂无待办</string>
+    <string name="rename">重命名</string>
+    <string name="todo">待办</string>
+    <string name="todo_count_tip">条待办</string>
+    <string name="todo_tip">待办提醒</string>
+    <string name="list">列表</string>
+    <string name="year">年</string>
+    <string name="month">月</string>
+    <string name="day">日</string>
+    <string name="hour">时</string>
+    <string name="minute">分</string>
+    <string name="create_list_tips">请先新增列表</string>
+    <string name="clear_data_title">是否确认删除内容?</string>
+    <string name="clear_data_tip">删除后数据不可恢复</string>
+    <string name="group_name_duplicate_tips">已有相同名称的列表，请确认后重新修改</string>
+    <string name="todo_notification">待办通知</string>
+</resources>

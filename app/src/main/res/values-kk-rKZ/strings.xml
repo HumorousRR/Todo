@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="add_to_do_event">Іс элементтерін қосыңыз</string>
+    <string name="app_name">Алдағы</string>
+    <string name="cancel">Болдырмау</string>
+    <string name="confirm">Әрине</string>
+    <string name="create_list">Жаңа тізім қосу</string>
+    <string name="create_todo">Жаңа тапсырма жасаңыз</string>
+    <string name="create_todo_tip">Қосуға өтіңіз</string>
+    <string name="day">Күн</string>
+    <string name="delete">жою</string>
+    <string name="group_name_length_limit_tips">Тізім атауындағы таңбалар саны 9-дан аспауы керек</string>
+    <string name="has_done">аяқталды</string>
+    <string name="hour">Сағат</string>
+    <string name="list">Тізім</string>
+    <string name="minute">Мин</string>
+    <string name="month">ай</string>
+    <string name="no_todo_data_tip">Әлі істейтін ештеңе жоқ</string>
+    <string name="rename">Атын өзгерту</string>
+    <string name="todo">Алдағы</string>
+    <string name="todo_count_tip">Орындалатын заттар</string>
+    <string name="todo_tip">Істі еске салғыш</string>
+    <string name="year">Жыл</string>
+    <string name="create_list_tips">Алдымен жаңа тізім қосыңыз</string>
+
+    <string name="clear_data_title">Мазмұнды жоюға сенімдісіз бе?</string>
+    <string name="clear_data_tip">Деректерді жойғаннан кейін қалпына келтіру мүмкін емес</string>
+    <string name="group_name_duplicate_tips">Бірдей атаумен тізім әлдеқашан бар, растап, қайта өзгертіңіз</string>
+    <string name="todo_notification">Todo Notification</string>
+</resources>

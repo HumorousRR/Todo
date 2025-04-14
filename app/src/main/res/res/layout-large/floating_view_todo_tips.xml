@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="13dp"
+        android:layout_marginEnd="13dp"
+        android:background="@drawable/bg_floating_tips_content"
+        android:minWidth="247dp"
+        android:paddingVertical="15dp">
+
+        <TextView
+            android:id="@+id/todoTipsTv"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="9.33dp"
+            android:layout_marginEnd="13dp"
+            android:includeFontPadding="false"
+            android:text="@string/todo_tip"
+            android:textColor="@color/black_333333"
+            android:textSize="13.33sp"
+            app:layout_constraintStart_toEndOf="@+id/image"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toTopOf="@id/tipsContentTv"/>
+
+        <TextView
+            android:id="@+id/tipsContentTv"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:includeFontPadding="false"
+            android:textColor="@color/black_333333"
+            android:textSize="13.33sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@id/todoTipsTv"
+            app:layout_constraintStart_toStartOf="@+id/todoTipsTv"
+            app:layout_constraintTop_toBottomOf="@+id/todoTipsTv"/>
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="34.67dp"
+            android:layout_height="34.67dp"
+            android:layout_gravity="bottom"
+            android:layout_marginStart="@dimen/margin_16dp"
+            android:src="@drawable/ic_widget_image"
+            app:layout_constraintHorizontal_bias="0"
+            app:layout_constraintHorizontal_chainStyle="packed"
+            app:layout_constraintEnd_toStartOf="@id/todoTipsTv"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <ImageView
+        android:id="@+id/closeIv"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_gravity="top|end"
+        android:src="@drawable/icon_close" />
+</FrameLayout>
