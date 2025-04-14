@@ -5,18 +5,19 @@ A to-do app that includes functions such as creating categories, adding, deletin
 1. The left side of the main interface includes creating categories (supporting category renaming and one click deletion of categories)
 2. On the right side are the to-do items under each category (supporting adding, deleting, marking completion or not, and setting reminders)
    
-![Todo App UI](readme_res/todo.png)
+<img src="readme_res/todo.png" alt="Todo App UI" style="width:388px;height:auto;">
+
 3. After setting reminders, to-do events will be reminded ten minutes in advance
 
-![Todo Remind](readme_res/remind1.png)
-
-![Todo Remind Notification](readme_res/remind2.png)
+<img src="readme_res/remind1.png" alt="Todo Remind" style="width:380px;height:auto;">
+<br>
+<img src="readme_res/remind2.png" alt="Todo Remind Notification" style="width:376px;height:auto;">
 
 4. Provides three sizes of desktop widgets for display and interaction
 
-![Todo App Widgets](readme_res/widget1.png)
-
-![Todo App Widgets Example](readme_res/widget2.png)
+<img src="readme_res/widget1.png" alt="Todo App Widgets" style="width:371px;height:auto;">
+<br>
+<img src="readme_res/widget2.png" alt="Todo App Widgets Example" style="width:393px;height:auto;">
 
 # Technical points used
 - MVVM
